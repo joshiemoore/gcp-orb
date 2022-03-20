@@ -2,6 +2,8 @@
 Make GCP Dot mood lighting with an ESP-32 and some LED strips. This ESP-32 sketch queries the GCP index at regular intervals and sets a connected LED strip
 to the [current color of the GCP Dot](http://www.gcpdot.com/gcpdot/).
 
+!(gcp orb)[gcp_orb.jpg]
+
 ## What is the GCP Dot?
 The Global Consciousness Project collects random numbers from around the world. Sometimes the numbers collected aren't as random as they should be.
 Research suggests that human consciousness at large scale can cause subtle structure to appear in "random" data. When the GCP Dot is redder, this
