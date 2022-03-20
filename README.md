@@ -27,3 +27,5 @@ If everything worked, then your new GCP Orb will automatically query the GCP ind
 will have mood lighting that matches the color of the GCP Dot on the GCP website. You do not need to keep the
 GCP Orb plugged into the computer at this point, it's fully self-contained once it's set up. You can power it
 with any 5V power supply that works on an ESP-32.
+
+![pondering my orb](pondering_orb.jpg)
