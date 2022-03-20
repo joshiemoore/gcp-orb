@@ -94,8 +94,6 @@ void xml_callback(uint8_t status_flags, char* tag_name,
 // retrieve current GCP index
 void get_gcp_index()
 {
-  float new_index = -1;
-
   WiFiClient wc;
   HttpClient http(wc);
   int err = http.get(GCP_HOST, GCP_PATH);
