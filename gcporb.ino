@@ -1,3 +1,17 @@
+//
+// gcporb.ino
+// joshiemoore 2022
+//
+// A sketch for ESP-32
+// This sketch queries the GCP index at regular intervals and sets a
+// connected LED strip to the same color as displayed on the GCP Dot
+// website. This can be used to make GCP Dot mood lighting.
+// http://www.gcpdot.com/gcpdot/
+//
+// This program is Free Software, licensed under the terms of GPLv3.
+// https://www.gnu.org/licenses/gpl-3.0.txt
+//
+
 #include <HttpClient.h>
 #include <TinyXML.h>
 #include <FastLED.h>
